@@ -12,7 +12,7 @@ const StyledLogo = styled.h1`
 `
 
 const Header = () => (
-    <StyledHeader><StyledLogo>Lofi Bits</StyledLogo></StyledHeader>
+    <StyledHeader><StyledLogo>NextJS Starter</StyledLogo></StyledHeader>
 )
 
 export default Header;
