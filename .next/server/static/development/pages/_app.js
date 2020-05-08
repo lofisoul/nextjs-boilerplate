@@ -123,11 +123,11 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 const StyledHeader = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.header.withConfig({
   displayName: "Header__StyledHeader",
-  componentId: "h9pmu1-0"
+  componentId: "tsctpw-0"
 })(["padding:1rem 3rem;background-color:#fff;box-shadow:0px 3px 5px 0px rgba(0,0,0,.07);"]);
 const StyledLogo = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.h1.withConfig({
   displayName: "Header__StyledLogo",
-  componentId: "h9pmu1-1"
+  componentId: "tsctpw-1"
 })(["margin:0;font-family:", ""], props => props.theme.serif);
 
 const Header = () => __jsx(StyledHeader, {
@@ -144,7 +144,7 @@ const Header = () => __jsx(StyledHeader, {
     lineNumber: 15,
     columnNumber: 19
   }
-}, "Lofi Bits"));
+}, "NextJS Starter"));
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
 
@@ -209,7 +209,7 @@ const Meta = () => __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
     columnNumber: 9
   }
 }), __jsx("link", {
-  href: "https://fonts.googleapis.com/css2?family=Jost:wght@300;500;800&family=Playfair+Display:wght@400;800&display=swap",
+  href: "https://fonts.googleapis.com/css2?family=Jost:wght@300;500;600;800&family=Playfair+Display:wght@400;800&display=swap",
   rel: "stylesheet",
   __self: undefined,
   __source: {
@@ -376,6 +376,17 @@ module.exports = _interopRequireDefault;
 
 /***/ }),
 
+/***/ "./node_modules/@fortawesome/fontawesome-svg-core/styles.css":
+/*!*******************************************************************!*\
+  !*** ./node_modules/@fortawesome/fontawesome-svg-core/styles.css ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
 /***/ "./node_modules/next/app.js":
 /*!**********************************!*\
   !*** ./node_modules/next/app.js ***!
@@ -538,6 +549,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_app__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/app */ "./node_modules/next/app.js");
 /* harmony import */ var next_app__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_app__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_Page__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Page */ "./components/Page.js");
+/* harmony import */ var _fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @fortawesome/fontawesome-svg-core */ "@fortawesome/fontawesome-svg-core");
+/* harmony import */ var _fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _fortawesome_fontawesome_svg_core_styles_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @fortawesome/fontawesome-svg-core/styles.css */ "./node_modules/@fortawesome/fontawesome-svg-core/styles.css");
+/* harmony import */ var _fortawesome_fontawesome_svg_core_styles_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_fontawesome_svg_core_styles_css__WEBPACK_IMPORTED_MODULE_4__);
 var _jsxFileName = "/Users/jasonnolfi/nextjs-boilerplate/pages/_app.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -547,6 +562,9 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 
 
+
+_fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_3__["config"].autoAddCss = false;
+
 function MyApp({
   Component,
   pageProps
@@ -555,14 +573,14 @@ function MyApp({
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6,
+      lineNumber: 9,
       columnNumber: 7
     }
   }, __jsx(Component, _extends({}, pageProps, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7,
+      lineNumber: 10,
       columnNumber: 11
     }
   })));
@@ -581,6 +599,17 @@ function MyApp({
 
 module.exports = __webpack_require__(/*! private-next-pages/_app.js */"./pages/_app.js");
 
+
+/***/ }),
+
+/***/ "@fortawesome/fontawesome-svg-core":
+/*!****************************************************!*\
+  !*** external "@fortawesome/fontawesome-svg-core" ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@fortawesome/fontawesome-svg-core");
 
 /***/ }),
 
